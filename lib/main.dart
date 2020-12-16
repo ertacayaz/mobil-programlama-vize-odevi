@@ -10,7 +10,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: 'uyeol', routes: {
+    return MaterialApp(initialRoute: '/', routes: {
       '/': (context) => GirisEkrani(),
       'uyeol': (context) => UyeOl(),
       'sifremiunuttum': (context) => SifremiUnuttum(),
